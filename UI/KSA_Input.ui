@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>builderDialog</class>
+ <widget class="QDialog" name="builderDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1106</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="title">
+      <string>Default Knowledge</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="DefaultKnowledgeEntry">
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="inputMask">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Enter a value between 0 and 100</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="KnowledgeApply">
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="title">
+      <string>Default Skills</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="DefaultSkillEntry">
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Enter a value between 0 and 100</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SkillsApply">
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="title">
+      <string>Default Abilities</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="DefaultAbilityEntry">
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="placeholderText">
+         <string>Enter a value between 0 and 100</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="AbilityApply">
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Knowledge</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTableWidget" name="knowledgTable">
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <row>
+         <property name="text">
+          <string>Administration and Management</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Biology</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Building and Construction</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Chemistry</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Clerical</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Communications and Media</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Computers and Electronics</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Customer and Personal Service</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Design</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Economics and Accounting</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Education and Training</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Engineering and Technology</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>English Language</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Fine Arts</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Food Production</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Foreign Language</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Geography</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>History and Archeology</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Law and Government</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Mathematics</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Mechanical</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Medicine and Dentistry</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Personnel and Human Resources</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Philosophy and Theology</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Physics</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Production and Processing</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Psychology</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Public Safety and Security</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Sales and Marketing</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Sociology and Anthropology</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Telecommunications</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Therapy and Counseling</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Transportation</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Ideal Value</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="18" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="19" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="20" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="21" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="22" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="23" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="24" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="25" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="26" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="27" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="28" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="29" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="30" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="31" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="32" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Skills</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QTableWidget" name="skillsTable">
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <row>
+         <property name="text">
+          <string>Active Learning</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Active Listening</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Complex Problem Solving</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Coordination</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Critical Thinking</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Equipment Maintenance</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Equipment Selection</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Installation</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Instructing</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Judgment and Decision Making</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Learning Strategies</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Management of Financial Resources</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Management of Material Resources</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Management of Personnel Resources</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Mathematics</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Monitoring</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Negotiation</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Operation Monitoring</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Operation and Control</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Operations Analysis</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Persuasion</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Programming</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Quality Control Analysis</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Reading Comprehension</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Repairing</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Science</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Service Orientation</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Social Perceptiveness</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Speaking</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Systems Analysis</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Systems Evaluation</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Technology Design</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Time Management</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Troubleshooting</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Writing</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Ideal Value</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="18" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="19" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="20" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="21" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="22" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="23" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="24" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="25" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="26" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="27" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="28" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="29" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="30" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="31" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="32" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="33" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="34" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>Abilities</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QTableWidget" name="abilityTable">
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <row>
+         <property name="text">
+          <string>Arm-Hand Steadiness</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Auditory Attention</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Category Flexibility</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Control Precision</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Deductive Reasoning</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Depth Perception</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Dynamic Flexibility</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Dynamic Strength</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Explosive Strength</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Extent Flexibility</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Far Vision</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Finger Dexterity</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Flexibility of Closure</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Fluency of Ideas</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Glare Sensitivity</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Gross Body Coordination</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Gross Body Equilibrium</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Hearing Sensitivity</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Inductive Reasoning</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Information Ordering</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Manual Dexterity</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Mathematical Reasoning</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Memorization</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Multilimb Coordination</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Near Vision</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Night Vision</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Number Facility</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Oral Comprehension</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Oral Expression</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Originality</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Perceptual Speed</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Peripheral Vision</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Problem Sensitivity</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Rate Control</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Reaction Time</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Response Orientation</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Selective Attention</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Sound Localization</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Spatial Orientation</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Speech Clarity</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Speech Recognition</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Speed of Closure</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Speed of Limb Movement</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Stamina</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Static Strength</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Time Sharing</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Trunk Strength</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Visual Color Discrimination</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Visualization</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Wrist-Finger Speed</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Written Comprehension</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Written Expression</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Ideal Value</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="18" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="19" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="20" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="21" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="22" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="23" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="24" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="25" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="26" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="27" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="28" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="29" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="30" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="31" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="32" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="33" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="34" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="35" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="36" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="37" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="38" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="39" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="40" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="41" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="42" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="43" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="44" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="45" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="46" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="47" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="48" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="49" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="50" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="51" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QPushButton" name="saveButton">
+     <property name="toolTip">
+      <string extracomment="Saves your ideal fit"/>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="3">
+    <widget class="QPushButton" name="saveAndClose">
+     <property name="text">
+      <string>Save and Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

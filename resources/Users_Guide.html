@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.3.4.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 1in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p style="margin-bottom: 0.14in; line-height: 115%">
+<font face="Calibri, serif"><font size="4" style="font-size: 11pt"><span lang="en"><b>OVERVIEW-</b></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">This
+program utilizes the files in the &quot;resources&quot; folder as a
+pseudo-database, and will average the values for each Knowledge,
+Skill, and Ability per MOS automatically. The user can then either
+view an MOS's averages, compare two MOS's averages, or build their
+&quot;ideal fit&quot; for a job and compare that ideal to the
+established MOS averages, either individually or as a total. This
+program is based around the Knowledge, Skill and Ability
+Values assigned to SOC codes and related to USMC MOSs on the O*NET website.
+For more information about O*NET and SOC codes, visit the <a href="https://www.onetcenter">O*NET Website</a>.
+ </span></span></font></font>
+</p>
+</br>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="4" style="font-size: 11pt"><span lang="en"><b>GUI
+EXPLAINATION- </b></span></font></font>
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal"><u>Main
+Window-</u></span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">When
+first running the application, the user is greeted with the main
+screen. On this screen, the user can choose to build their &quot;ideal
+fit&quot; for a job, calculate the difference between an MOS and
+their &quot;ideal fit,&quot; view a single MOS's averages, compare
+MOSs, or calculate the total difference between all MOSs and their
+&quot;ideal fit.&quot; </span></span></font></font>
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal"><u>Build
+Window-</u></span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">Upon
+clicking the &quot;Go&quot; button in the &quot;Build&quot; box, the
+user will be presented with the build window. This window allows the
+user to enter their ideal values for a job. The user can set a
+default value per table using the default value entries at the top of
+the window. After the user is finished entering all their values, the
+&quot;save&quot; and &quot;save and close&quot; buttons at the bottom
+of the menu are used to save the values.</span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal"><u>&quot;MOS
+vs. Ideal&quot; and &quot; View Single MOS&quot; Windows-</u></span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">These
+windows are displayed when comparing a chosen MOS to the ideal fit,
+or viewing a single MOS. The display will be 3 tables displaying the
+associated data.</span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal"><u>Compare
+MOSs Window-</u></span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">This
+window will display two MOS dropdowns and 3 blank tables. The user
+will select two MOSs to compare. After clicking the &quot;Compare&quot;
+button the tables will populate with the values for each MOS as well
+as the difference between MOS #1 and MOS #2. </span></span></font></font>
+</p>
+</br>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="4" style="font-size: 11pt"><span lang="en"><b>FILE
+EXPLAINATION (resources)-</b></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">The
+resources file contains all the files needed to execute the program.
+If you are going to replace or update a file, you MUST name it
+exactly as it was originally. </span></span></font></font>
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">Abilities.csv,
+Knowledge.csv, and Skills.csv contain data in comma separated value
+format. These files are derived from the .xlsx files available on
+O*NET that can be downloaded
+<a href="https://www.onetcenter.org/database.html#all-files">here</a>.
+These .csv files contain three columns each; column 1: SOC CODE, column
+2: Attribute, column 3: value. The value (on a 0-100 scale) is
+derived from the &quot;importance&quot; value (originally a value
+1-5) by the formula:</span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal"><i>value
+= ((&quot;original value&quot; - 1)/4)*100</i></span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">When
+saving these files, remember to delete the headers, so the .csv file
+contains only the relevant data. You can generate these types of
+files from an .xls or .xlsx format by &quot;saving as&quot; the .csv
+format.</span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">The
+MOS_to_SOC.csv file is a list of each MOS and its associated SOC
+codes. The format is; column 1: MOS, columns 2-n: SOC codes. This
+file is not readily available online, and if you want to update it,
+you must search for the MOS on O*NET,
+<a href="https://www.onetonline.org/crosswalk/MOC/">here</a>,
+and then copy and paste the SOC codes into the sheet. </span></span></font></font>
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">NOTE: DO
+NOT CHANGE THE .CSV FILES DIRECTLY. This will likely mess with the
+formatting, and the program will not read it correctly. When updating
+or modifying the .csv files, ensure that you are using Microsoft
+Excel to make the changes, then saving files in the .csv format.</span></span></font></font></p>
+</br>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="4" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal"><b>TROUBLESHOOTING-</b></span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="Calibri, serif"><font size="3" style="font-size: 11pt"><span lang="en"><span style="font-weight: normal">The
+user will not be able to calculate differences, either total or
+against an individual MOS unless an &quot;ideal fit&quot; is built
+first. These &quot;ideal fits&quot; are not saved between instances
+of the application, so it must be built each time the application is
+run.</span></span></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+</body>
+</html>
